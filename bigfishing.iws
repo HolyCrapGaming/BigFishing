@@ -15,12 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c2feef3-e550-4a67-a227-af4f4a443d2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigfishing-server/bigfishing-server.iml" afterPath="$PROJECT_DIR$/bigfishing-server/bigfishing-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigfishing-server/pom.xml" afterPath="$PROJECT_DIR$/bigfishing-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigfishing-web/pom.xml" afterPath="$PROJECT_DIR$/bigfishing-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigfishing.ipr" afterPath="$PROJECT_DIR$/bigfishing.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java" afterPath="$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigfishing.iws" afterPath="$PROJECT_DIR$/bigfishing.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="bigfishing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,19 +76,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="44" selection-start="2617" selection-end="2617" vertical-scroll-proportion="0.8231707">
+            <state line="70" column="37" selection-start="2312" selection-end="2312" vertical-scroll-proportion="-7.244898">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bigfishing-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="27" selection-start="651" selection-end="651" vertical-scroll-proportion="12.244898">
+            <state line="45" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.6289308">
               <folding />
             </state>
           </provider>
@@ -118,7 +115,7 @@
       <file leaf-file-name="BigFishingBootstrap.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="68" selection-start="1470" selection-end="1470" vertical-scroll-proportion="13.5">
+            <state line="58" column="60" selection-start="2167" selection-end="2167" vertical-scroll-proportion="-253.5">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,10 +149,10 @@
         <option value="$PROJECT_DIR$/src/main/java/bigfishing/ServerBootstrap.java" />
         <option value="$PROJECT_DIR$/src/main/java/bigfishing/BigFishingBootstrap.java" />
         <option value="$PROJECT_DIR$/bigfishing-server/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java" />
-        <option value="$PROJECT_DIR$/bigfishing-server/pom.xml" />
         <option value="$PROJECT_DIR$/bigfishing-web/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java" />
+        <option value="$PROJECT_DIR$/bigfishing-server/pom.xml" />
       </list>
     </option>
   </component>
@@ -182,6 +179,34 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="bigfishing-server" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="bigfishing-server" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="bigfishing-server" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -522,7 +547,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-106" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -535,7 +560,7 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938644" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938644" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15285254" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -635,15 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="68" selection-start="1470" selection-end="1470" vertical-scroll-proportion="13.5">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/log4j/log4j/1.2.15/log4j-1.2.15.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state line="394" column="16" selection-start="15359" selection-end="15359" vertical-scroll-proportion="-5.897959">
@@ -658,16 +674,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bigfishing-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="651" selection-end="651" vertical-scroll-proportion="12.244898">
+        <state line="70" column="37" selection-start="2312" selection-end="2312" vertical-scroll-proportion="-7.244898">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="44" selection-start="2617" selection-end="2617" vertical-scroll-proportion="0.8231707">
+        <state line="58" column="60" selection-start="2167" selection-end="2167" vertical-scroll-proportion="-253.5">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bigfishing-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.6289308">
           <folding />
         </state>
       </provider>

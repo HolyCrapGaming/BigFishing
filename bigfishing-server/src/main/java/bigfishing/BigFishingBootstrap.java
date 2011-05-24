@@ -51,10 +51,12 @@ public class BigFishingBootstrap extends ServerBootstrap{
         });
 
         try {
-            bootstrap.bind(new InetSocketAddress(InetAddress.getLocalHost(), 9999));
+            bootstrap.bind(new InetSocketAddress(InetAddress.getByName("119.161.212.41"), 9999));
         } catch (UnknownHostException e) {
             LOGGER.error("BigFishing server start failed: could not bind to localhost. " + e.getMessage(), e);
         }
+
+        LOGGER.info("BigFishing server started successfully.");
 
     }
 
