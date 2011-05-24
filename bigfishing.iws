@@ -15,9 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c2feef3-e550-4a67-a227-af4f4a443d2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigfishing-server/pom.xml" afterPath="$PROJECT_DIR$/bigfishing-server/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java" afterPath="$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigfishing.iws" afterPath="$PROJECT_DIR$/bigfishing.iws" />
     </list>
     <ignored path="bigfishing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bigfishing-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.6289308">
+            <state line="45" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="-10.734694">
               <folding />
             </state>
           </provider>
@@ -112,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BigFishingBootstrap.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BigFishingBootstrap.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="60" selection-start="2167" selection-end="2167" vertical-scroll-proportion="-253.5">
+            <state line="39" column="44" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.16461366">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,8 +149,8 @@
         <option value="$PROJECT_DIR$/bigfishing-server/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/bigfishing-web/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java" />
         <option value="$PROJECT_DIR$/bigfishing-server/pom.xml" />
+        <option value="$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java" />
       </list>
     </option>
   </component>
@@ -560,7 +558,7 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938644" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15285254" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -667,6 +665,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bigfishing-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="-10.734694">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bigfishing-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="24" selection-start="421" selection-end="421" vertical-scroll-proportion="-5.714286">
@@ -683,17 +688,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bigfishing-server/src/main/java/bigfishing/BigFishingBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="60" selection-start="2167" selection-end="2167" vertical-scroll-proportion="-253.5">
+        <state line="39" column="44" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.16461366">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigfishing-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.6289308">
-          <folding />
         </state>
       </provider>
     </entry>
