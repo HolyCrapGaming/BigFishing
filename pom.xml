@@ -4,12 +4,27 @@
     <groupId>bigfishing</groupId>
     <artifactId>bigfishing-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${bigfishing-release-version}</version>
     <name>bigfishing</name>
     <url>http://maven.apache.org</url>
 
+    <developers>
+        <developer>
+            <id>zahir</id>
+            <name>zhao yao</name>
+            <email>zhaoyao8080@gmail.com</email>
+        </developer>
+
+        <developer>
+            <id>lostplayer</id>
+            <name>xu tiancheng</name>
+            <email>lostplayer@163.com</email>
+        </developer>
+    </developers>
+
 
     <properties>
+        <bigfishing-release-version>0.0.1-SNAPSHOT</bigfishing-release-version>
         <spring.version>2.5.6</spring.version>
         <junit.version>4.8.2</junit.version>
     </properties>
@@ -27,6 +42,24 @@
                 <groupId>org.jboss.netty</groupId>
                 <artifactId>netty</artifactId>
                 <version>3.2.4.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.5.8</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.5.8</version>
+            </dependency>
+
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.15</version>
             </dependency>
 
 
