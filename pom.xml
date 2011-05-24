@@ -1,0 +1,170 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>bigfishing</groupId>
+    <artifactId>bigfishing-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>${bigfishing-release-version}</version>
+    <name>bigfishing</name>
+    <url>http://maven.apache.org</url>
+
+    <developers>
+        <developer>
+            <id>zahir</id>
+            <name>zhao yao</name>
+            <email>zhaoyao8080@gmail.com</email>
+        </developer>
+
+        <developer>
+            <id>lostplayer</id>
+            <name>xu tiancheng</name>
+            <email>lostplayer@163.com</email>
+        </developer>
+    </developers>
+
+
+    <properties>
+        <bigfishing-release-version>0.0.1-SNAPSHOT</bigfishing-release-version>
+        <spring.version>2.5.6</spring.version>
+        <junit.version>4.8.2</junit.version>
+    </properties>
+
+    <modules>
+        <module>bigfishing-web</module>
+        <module>bigfishing-server</module>
+    </modules>
+
+    <dependencyManagement>
+
+        <dependencies>
+
+            <dependency>
+                <groupId>org.jboss.netty</groupId>
+                <artifactId>netty</artifactId>
+                <version>3.2.4.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.5.8</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.5.8</version>
+            </dependency>
+
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.15</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>mockit</groupId>
+                <artifactId>jmockit</artifactId>
+                <version>0.999.8</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.12</version>
+            </dependency>
+
+        </dependencies>
+
+    </dependencyManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <encoding>utf-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <reportSets>
+                    <reportSet>
+                        <reports>
+                            <report>project-team</report>
+                            <report>mailing-list</report>
+                            <report>issue-tracking</report>
+                            <report>scm</report>
+                            <report>summary</report>
+                            <report>index</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <configLocation>checkstyle.xml</configLocation>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>2.4.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <configuration>
+                    <formats>
+                        <format>xml</format>
+                        <format>html</format>
+                    </formats>
+                    <check>
+                        <branchRate>70</branchRate>
+                        <lineRate>70</lineRate>
+                        <haltOnFailure>false</haltOnFailure>
+                        <totalBranchRate>70</totalBranchRate>
+                        <totalLineRate>70</totalLineRate>
+                        <packageLineRate>70</packageLineRate>
+                        <packageBranchRate>70</packageBranchRate>
+                    </check>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </reporting>
+
+    <repositories>
+        <repository>
+            <id>Nexus</id>
+            <name>Nexus Public Repository</name>
+            <url>http://119.161.212.42:8120/nexus/content/groups/public</url>
+        </repository>
+        <repository>
+            <id>Nexus Thrird</id>
+            <name>Nexus Thirdparty Repository</name>
+            <url>http://119.161.212.42:8120/nexus/content/repositories/thirdparty/</url>
+        </repository>
+
+        <repository>
+            <id>jmockit-svn</id>
+            <url>http://jmockit.googlecode.com/svn/maven-repo</url>
+            <releases>
+                <checksumPolicy>ignore</checksumPolicy>
+            </releases>
+        </repository>
+
+    </repositories>
+</project>
