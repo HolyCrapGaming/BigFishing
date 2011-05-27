@@ -1,0 +1,28 @@
+05-28 00:02:22:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:04:33:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:07:08:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:07:53:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:10:58:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:31:14:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:32:55:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:35:12:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:35:53:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:36:56:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:39:19:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:39:40:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:41:18:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:43:41:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:44:49:INFO(26)New I/O server worker #1-1 bigfishing.cmd.CommandDispatcher - got CreateRoomCmd{roomType=1, encrypted=true, name='新手房间', password='123456'}
+05-28 00:48:15:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 00:48:20:INFO(26)New I/O server worker #1-1 bigfishing.cmd.CommandDispatcher - got CreateRoomCmd{roomType=1, encrypted=true, name='新手房间', password='123456'}
+05-28 01:04:01:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:08:43:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:10:20:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:10:48:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:12:37:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:13:19:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:16:27:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:16:55:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:18:13:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:23:23:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
+05-28 01:30:13:INFO(76)main bigfishing.BigFishingBootstrap - BigFishing server started successfully.
