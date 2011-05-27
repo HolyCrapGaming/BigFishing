@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>bigfishing</groupId>
-    <artifactId>bigfishing-server</artifactId>
+    <artifactId>bigfishing-socket-broker</artifactId>
     <packaging>jar</packaging>
 
     <parent>
@@ -14,11 +14,17 @@
 
 
     <version>0.0.1-SNAPSHOT</version>
-    <name>bigfishing-server</name>
+    <name>bigfishing-socket-broker</name>
     <url>http://maven.apache.org</url>
 
 
     <dependencies>
+        <dependency>
+            <groupId>bigfishing</groupId>
+            <artifactId>bigfishing-shared</artifactId>
+            <version>${utils-version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.jboss.netty</groupId>
             <artifactId>netty</artifactId>

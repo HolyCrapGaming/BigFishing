@@ -27,16 +27,55 @@
         <bigfishing-release-version>0.0.1-SNAPSHOT</bigfishing-release-version>
         <spring.version>2.5.6</spring.version>
         <junit.version>4.8.2</junit.version>
+
+        <utils-version>0.0.1-SNAPSHOT</utils-version>
     </properties>
 
     <modules>
-        <module>bigfishing-web</module>
-        <module>bigfishing-server</module>
+        <module>bigfishing-http-service</module>
+        <module>bigfishing-socket-broker</module>
+        <module>bigfishing-fishing-service</module>
+        <module>bigfishing-ladder-service</module>
+        <module>bigfishing-team-profile</module>
+        <module>bigfishing-user-profile</module>
+        <module>bigfishing-shared</module>
     </modules>
 
     <dependencyManagement>
 
         <dependencies>
+
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>2.5</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>2.5.6</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context-support</artifactId>
+                <version>2.5.6</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>2.5.6</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+                <version>2.5.6</version>
+            </dependency>
+
+
 
             <dependency>
                 <groupId>org.jboss.netty</groupId>
